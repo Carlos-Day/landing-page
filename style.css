@@ -1,0 +1,57 @@
+body{
+margin:0;
+}
+header{
+    background-color:#1f2937;
+    color:white;
+    display:block;
+}
+.header-nav{
+    display:flex;
+    justify-content: space-between;
+    margin:0 200px;
+}
+.header-links{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    display:flex;
+    align-items: center;
+    gap:16px;
+}
+.header-logo{
+    display:flex;
+    /* margin-right:auto; maybe get rid of this for a space around or between in the main item */
+}
+.header-herobar{
+    padding:40px 0;
+    display:flex;
+    /* justify-content:space-around; */
+    margin:0 200px;
+}
+.hero-text>h1{
+    font-size:48px;
+    font-weight:bolder;
+    color:#F9FAF8;
+    margin:0;
+}
+.hero-text>p{
+    margin:0;
+}
+.header-low-c{
+    font-size:18px;
+    color:#E5E7EB;
+    filter:contrast(65%)
+}
+.image-placeholder {
+    background-color: rgb(80, 80, 80);
+    display: flex;
+    margin:5px;
+    height: 180px;
+    width: 350px;
+}
+.herobar-image{
+    width:100%;
+    align-self:center;
+    text-align:center;
+}
